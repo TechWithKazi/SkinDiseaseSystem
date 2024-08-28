@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "683724291000",
+    "project_id": "skin-disease-detection-s-57573",
+    "storage_bucket": "skin-disease-detection-s-57573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683724291000:android:c92f93f4f82f7afb182d4d",
+        "android_client_info": {
+          "package_name": "com.example.skin_detection_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-wyIWXjEnGPFPyMLvpir_JrtoMykwqKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

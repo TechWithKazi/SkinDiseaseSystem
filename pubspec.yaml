@@ -1,0 +1,44 @@
+name: skin_detection_system
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.25.4
+  cloud_firestore: ^4.13.2
+  random_string: ^2.3.1
+  fluttertoast: ^8.2.4
+  firebase_auth: ^4.17.4
+  firebase_storage: ^11.6.6
+  file_picker: ^5.2.1
+  image_picker: ^0.8.9
+  sidebarx: ^0.1.0 # Add the appropriate version for sidebarx
+  cupertino_icons: ^1.0.2
+  intl: ^0.19.0
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/doctor.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
